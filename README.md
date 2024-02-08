@@ -1,2 +1,39 @@
-# DiaDetect--BSD-3204-Machine-Learning
-BSD 3204 Machine Learning class project by Eric Kariri (22/00580). A comprehensive analysis using R to predict diabetes from health metrics. Features data preprocessing, model training with SVM and Logistic Regression, and a Shiny app for predictions.
+# DIADETECT - Diabetes Prediction Project
+
+## Overview
+This project, developed for the BSD 3204 Machine Learning class by Eric Kariri (22/00580), leverages R to predict diabetes using health metrics. It encompasses data preprocessing, feature selection, model training (SVM, Logistic Regression), and deployment via a Shiny app.
+
+## Getting Started
+
+### Prerequisites
+- R and RStudio
+- Required R packages: `caret`, `glmnet`, `randomForest`, `pROC`, `e1071`, `dplyr`, `ROSE`, `kernlab`, `shiny`
+
+### Installation
+1. Clone this repository to your local machine.
+2. Install the required R packages by running:
+   ```R
+   install.packages(c("caret", "glmnet", "randomForest", "pROC", "e1071", "dplyr", "ROSE", "kernlab", "shiny"))
+
+## Running the Application
+- Open `app.R` in RStudio.
+- Run the app by clicking on the 'Run App' button in RStudio.
+- Interact with the web application through your web browser.
+
+## Project Structure
+- `DATASET.csv`: The dataset used for training and testing the models.
+- `model_training.R`: Script for data preprocessing, model training, and evaluation.
+- `app.R`: Shiny application for making predictions.
+
+## Contributing
+Feel free to fork this repository and submit pull requests to contribute to this project.
+
+## Acknowledgements
+- BSD 3204 Machine Learning class
+- Instructors and peers for their guidance and support.
+
+## Contact
+Eric Kariri - 2200580@students.kcau.ac.ke
+
+Project Link: [https://github.com/karirieric/DiaDetect--BSD-3204-Machine-Learning](https://github.com/karirieric/DiaDetect--BSD-3204-Machine-Learning)
+
