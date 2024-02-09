@@ -22,7 +22,6 @@ This project, developed for the BSD 3204 Machine Learning class by Eric Kariri (
 
 ## Project Structure
 - `DATASET.csv`: The dataset used for training and testing the models.
-- `model_training.R`: Script for data preprocessing, model training, and evaluation.
 - `app.R`: Shiny application for making predictions.
 
 ## Contributing
